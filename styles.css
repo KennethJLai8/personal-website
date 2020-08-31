@@ -1,0 +1,143 @@
+/*By Kenneth Lai*/
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+body {
+  background-color: #FFFFFF;
+  border-style: none; }
+
+body.page {
+  background-color: #1F4439; /*000033*/
+  font-family: 'Verdana', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: -0.2px;
+ }
+
+.fs {
+  width: 100vw; 
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  @media (max-width: 800px) {
+    .fs {
+      height: auto;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; } }
+  .fs .image {
+    width: 50%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-position: center center;
+    background-size: cover; }
+    @media (max-width: 800px) {
+      .fs .image {
+        height: 80vh;
+        width: 100%; } }
+  .fs .content {
+    width: 50%;
+    min-height: 100vh;
+    overflow: auto; }
+    @media (max-width: 800px) {
+      .fs .content {
+        width: 100%;
+        height: auto; } }
+    .fs .content .content-vertical {
+      padding: 80px;
+      max-width: 640px;
+      margin-top: auto;
+      margin-bottom: auto; }
+      @media (max-width: 1200px) {
+        .fs .content .content-vertical {
+          padding: 60px; } }
+      @media (max-width: 800px) {
+        .fs .content .content-vertical {
+          padding: 40px; } }
+
+.intro {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: -2px; }
+  .intro h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 16px;
+    margin-bottom: 40px;
+    letter-spacing: 0.4px;
+    color: #A9D0F5; }
+  .intro .tagline {
+    color: #EAEAEA; 
+  font-size: 60px;}
+
+.bio {
+  padding: 40px 0 40px 0;
+  font-family: 'Verdana', serif; }
+  @media (max-width: 1200px) {
+    .bio {
+      padding: 30px 0; } }
+  @media (max-width: 800px) {
+    .bio {
+      padding: 20px 0; } }
+  .bio p {
+    color: #848d96; }
+  .bio a {
+    color: #848d96;
+    border-bottom: 1px dotted #848d96; }
+    .bio a:hover {
+      color: #CA486d;
+      transition-duration: 0.1s;
+      border-bottom: 1px dotted #CA486d; }
+
+.lists .list {
+  width: 30%;
+  display: inline-block;
+  margin-bottom: 40px; }
+  @media (max-width: 500px) {
+    .lists .list {
+      width: 90%; } }
+  .lists .list h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 11px;
+    margin-bottom: 31px;
+    color: #CEE3F6;
+    letter-spacing: 2px;
+    opacity: 0.6; }
+  .lists .list ul li {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 12px; }
+    .lists .list ul li a {
+      color: #848d96;
+      }
+      .lists .list ul li a:hover {
+        color: #CA486d;
+         }
+
+.credit {
+  opacity: 0.4; }
+  .credit p {
+    font-size: 12px;
+    line-height: 14px; }
+    .credit p a {
+      color: #848d96; }
