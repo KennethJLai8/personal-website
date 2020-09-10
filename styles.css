@@ -141,3 +141,7 @@ body.page {
     line-height: 14px; }
     .credit p a {
       color: #848d96; }
+
+ #pic{
+   border-radius: 40%;
+ }
