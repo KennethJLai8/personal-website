@@ -1,3 +1,3 @@
 # personal-website
 Custom portfolio website
-link: https://kennethjlai8.github.io/personal-website/
+link: https://KennethJLai8.github.io/personal-website/
